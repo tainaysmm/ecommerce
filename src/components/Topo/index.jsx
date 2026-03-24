@@ -10,7 +10,7 @@ export default function Topo() {
             <div className='topo'>
                 <picture>
                     <a href='#'>
-                        <img src='./logo.png' height={190}/>
+                        <img src='./logo.png' height={200}/>
                     </a>
                 </picture>
 
@@ -18,7 +18,7 @@ export default function Topo() {
                     <a href="#">Home</a>
                     <a href="#">Produtos</a>
                     <a href="#">Lançamentos</a>
-                    <a href="#">Comtato</a>
+                    <a href="#">Contato</a>
                 </nav>
             </div>
         </header>
