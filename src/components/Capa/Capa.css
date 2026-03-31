@@ -18,14 +18,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1005;
+    height: 100%;
     max-width: 800px;
     text-align: center;
 }
 
 .texto h2 {
     font-size: 60px;
-    color: royalblue;
+    color: #f1ebff;
     font-weight: 600;
     margin: 0;
     text-shadow: 2px 2px 4px black;
@@ -34,7 +34,7 @@
 .texto h1 {
     font-size: 140px;
     margin: 0;
-    color: blue;
+    color: rgba(204, 143, 245, 0.788);
     font-weight: bold;
     text-shadow: 2px 2px 4px black;
 
