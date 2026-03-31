@@ -3,16 +3,16 @@
 :root {
     --primary-color: #bea0b0;
     --secondary-color: #f5deb3;
-    --title: #fff9e6;
+    --title: #af9f6b;
     --contrast: #fe8629;
     --text-base: #333;
     --cta: #c5006c;
     --background: #1a1a1a;
-    --text-color: #ffffff;
+    --text-color: #eebbbbc7;
     --gradient1: linear-gradient(135deg, #e6007e, #6a1b6a);
     --gradient2: linear-gradient(135deg, #ff3399, #4a148c);
     --font-base: "Roboto", sans-serif;
-    --font-title: "Abril Fatface", serif; 
+    --font-title: "Abril Fatface", serif;
 }
 
 * {
@@ -22,13 +22,11 @@
     font-family: var(--font-base);
     text-decoration: none;
     list-style: none;
-
 }
 
 body {
     color: var(--text-color);
     overflow-x: hidden;
-
 }
 
 h1,
@@ -43,8 +41,6 @@ img {
     object-fit: cover;
 }
 
-
-
 .btn {
     margin-top: 20px;
     padding: 12px 32px;
@@ -57,16 +53,14 @@ img {
     font-weight: bold;
     letter-spacing: 0.5px;
     transition: all 0.3s ease-in-out;
-    box-shadow:  4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 10px rgba(0, 0, 0, 0.2);
 }
-
 
 .btn:hover {
     background: var(--gradient2);
     transform: translateY(-3px) scale(1.03);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
-
 
 .anuncio {
     background-color: var(--background);
@@ -77,28 +71,25 @@ img {
     white-space: nowrap;
 }
 
-
 .anuncio-conteudo {
     display: inline-block;
     overflow: hidden;
 }
-
 
 .anuncio-conteudo p {
     display: inline-block;
     animation: textoCorrido 10s linear infinite;
 }
 
-
 @keyframes textoCorrido {
     0% {
         transform: translateX(100%);
     }
+
     100% {
         transform: translateX(-100%);
     }
-}  
-
+}
 
 .topo {
     display: flex;
@@ -112,11 +103,9 @@ img {
     z-index: 1000;
 }
 
-
 .topo picture {
     max-width: 100px;
 }
-
 
 .topo nav {
     display: flex;
@@ -130,4 +119,42 @@ img {
     padding: 8px 12px;
     transition: all 0.3s ease;
     position: relative;
+}
+
+.topo nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--primary-color);
+    transition: width 0.3s ease;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.topo nav a:hover::after {
+    width: 100%;
+}
+
+.topo nav a:hover {
+    color: #7a3b5d;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    .topo {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 15px;
+    }
+
+    .topo :picture {
+        max-width: 30px;
+    }
+    
+    .topo nav a {
+        font-size: 12px;
+    }
 }

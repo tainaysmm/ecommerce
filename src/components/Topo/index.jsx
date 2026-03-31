@@ -4,16 +4,16 @@ export default function Topo() {
     return (
         <header>
             <div className='anuncio'>
-                <p>Tudo em 10x sem juros!</p>
+                <div className='anuncio-conteudo'>
+                    <p>Tudo em 10x sem juros!</p>
+                </div>
             </div>
-
             <div className='topo'>
                 <picture>
                     <a href='#'>
-                        <img src='./logo.png' height={200}/>
+                        <img src='./logo.png' width={200} height={200} />
                     </a>
                 </picture>
-
                 <nav>
                     <a href="#">Home</a>
                     <a href="#">Produtos</a>
