@@ -25,7 +25,7 @@
 }
 
 body {
-    color: var(--text-color);
+    color: rgba(95, 29, 81, 0.678);
     overflow-x: hidden;
 }
 
