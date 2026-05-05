@@ -15,7 +15,7 @@ export default function Produtos() {
             <div className='titulos'>
                 <h2>Produtos</h2>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    O body splash da Victoria’s Secret (também chamado de fragrance mist) é um tipo de perfume leve, pensado para o uso no dia a dia. Diferente dos perfumes tradicionais, ele tem uma concentração menor de essência e mais água, o que faz com que o cheiro seja mais suave, refrescante e menos “forte”.
                 </p>
 
                 <div className='produtos_grid'>
@@ -32,16 +32,6 @@ export default function Produtos() {
                         </div>
                     </div>
 
-                    <div className='card'>
-                        <div className='card-image'>
-                            <img src={kitCom4} alt="Kit com 4" />
-                        </div>
-                        <div className='card-info'>
-                            <h3>Kit com 4</h3>
-                            <p className='preco'>R$ 499,90</p>
-                            <button className='btn'>Comprar agora</button>
-                        </div>
-                    </div>
 
                     <div className='card'>
                         <div className='card-image'>
@@ -95,6 +85,18 @@ export default function Produtos() {
                         <div className='card-info'>
                             <h3>Verde Água</h3>
                             <p className='preco'>R$ 199,90</p>
+                            <button className='btn'>Comprar agora</button>
+                        </div>
+                    </div>
+
+                    
+                    <div className='card'>
+                        <div className='card-image'>
+                            <img src={kitCom4} alt="Kit com 4" />
+                        </div>
+                        <div className='card-info'>
+                            <h3>Kit com 4</h3>
+                            <p className='preco'>R$ 499,90</p>
                             <button className='btn'>Comprar agora</button>
                         </div>
                     </div>
