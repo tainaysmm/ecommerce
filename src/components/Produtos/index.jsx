@@ -1,6 +1,4 @@
 import './Produtos.css'
-
-import verdeAgua from '../../assets/verde-agua.webp'
 import barevanilla from '../../assets/barevanilla.webp'
 import pureseduction from '../../assets/pureseduction.webp'
 import aguakiss from '../../assets/aguakiss.webp'
@@ -8,6 +6,9 @@ import coconutpasssion from '../../assets/coconutpassion.webp'
 import velvetpetals from '../../assets/velvetpetals.webp'
 import midnightbloom from '../../assets/midnightbloom.webp'
 import lovespell from '../../assets/lovespell.webp'
+import kit from '../../assets/kit.webp'
+import kitbodyecreme from '../../assets/kitbodyecreme.webp'
+
 
 
 
@@ -100,6 +101,30 @@ export default function Produtos() {
                         <div className='card-info'>
                             <h3>Love Spell</h3>
                             <p className='preco'>R$ 199,90</p>
+                            <button className='btn'>Comprar agora</button>
+                        </div>
+                    </div>
+
+                    
+                    <div className='card'>
+                        <div className='card-image'>
+                            <img src={kit} alt="Kit com 5" />
+                        </div>
+                        <div className='card-info'>
+                            <h3>Kit com 5</h3>
+                            <p className='preco'>R$ 450,90</p>
+                            <button className='btn'>Comprar agora</button>
+                        </div>
+                    </div>
+
+                     <div className='card'>
+                        <div className='card-image'>
+                            <img src={kitbodyecreme} alt="Body Splash com Creme"/>
+                            <span className='badge-venda'>Promoção</span>
+                        </div>
+                        <div className='card-info'>
+                            <h3>Body Splash com Creme</h3>
+                            <p className='preco'>R$ 150,99</p>
                             <button className='btn'>Comprar agora</button>
                         </div>
                     </div>
