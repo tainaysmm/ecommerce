@@ -1,12 +1,15 @@
 import './Produtos.css'
 
-import azulDourado from '../../assets/azul-dourado.png'
-import kitCom4 from '../../assets/kit-com-4.webp'
-import rosaAmarelo from '../../assets/rosa-amarelo.webp'
-import rosaNeon from '../../assets/rosa-neon.webp'
-import rosa from '../../assets/rosa.webp'
-import roxoClaro from '../../assets/roxo-claro.webp'
 import verdeAgua from '../../assets/verde-agua.webp'
+import barevanilla from '../../assets/barevanilla.webp'
+import pureseduction from '../../assets/pureseduction.webp'
+import aguakiss from '../../assets/aguakiss.webp'
+import coconutpasssion from '../../assets/coconutpassion.webp'
+import velvetpetals from '../../assets/velvetpetals.webp'
+import midnightbloom from '../../assets/midnightbloom.webp'
+import lovespell from '../../assets/lovespell.webp'
+
+
 
 
 export default function Produtos() {
@@ -19,14 +22,14 @@ export default function Produtos() {
                 </p>
 
                 <div className='produtos_grid'>
-
+                    
                     <div className='card'>
                         <div className='card-image'>
-                            <img src={azulDourado} alt="Azul Dourado" />
+                            <img src={aguakiss} alt="Agua Kiss" />
                             <span className='badge-venda'>Mais vendido</span>
                         </div>
                         <div className='card-info'>
-                            <h3>Azul Dourado</h3>
+                            <h3>Agua Kiss</h3>
                             <p className='preco'>R$ 299,90</p>
                             <button className='btn'>Comprar agora</button>
                         </div>
@@ -35,21 +38,33 @@ export default function Produtos() {
 
                     <div className='card'>
                         <div className='card-image'>
-                            <img src={rosaAmarelo} alt="Rosa Amarelo" />
+                            <img src={barevanilla} alt="Rosa Amarelo" />
                         </div>
                         <div className='card-info'>
-                            <h3>Rosa Amarelo</h3>
+                            <h3>Bare Vanilla</h3>
                             <p className='preco'>R$ 199,90</p>
+                            <button className='btn'>Comprar agora</button>
+                        </div>
+                    </div>
+
+                    
+                    <div className='card'>
+                        <div className='card-image'>
+                            <img src={pureseduction} alt="Rosa Neon" />
+                        </div>
+                        <div className='card-info'>
+                            <h3>Pure Seduction</h3>
+                            <p className='preco'>R$ 289,90</p>
                             <button className='btn'>Comprar agora</button>
                         </div>
                     </div>
 
                     <div className='card'>
                         <div className='card-image'>
-                            <img src={rosaNeon} alt="Rosa Neon" />
+                            <img src={coconutpasssion} alt="Rosa coconut passion" />
                         </div>
                         <div className='card-info'>
-                            <h3>Rosa Neon</h3>
+                            <h3>Coconut Passion</h3>
                             <p className='preco'>R$ 219,90</p>
                             <button className='btn'>Comprar agora</button>
                         </div>
@@ -57,10 +72,10 @@ export default function Produtos() {
 
                     <div className='card'>
                         <div className='card-image'>
-                            <img src={rosa} alt="Rosa" />
+                            <img src={velvetpetals} alt="Velvet petals" />
                         </div>
                         <div className='card-info'>
-                            <h3>Rosa</h3>
+                            <h3>Velvet Petals</h3>
                             <p className='preco'>R$ 189,90</p>
                             <button className='btn'>Comprar agora</button>
                         </div>
@@ -68,10 +83,10 @@ export default function Produtos() {
 
                     <div className='card'>
                         <div className='card-image'>
-                            <img src={roxoClaro} alt="Roxo Claro" />
+                            <img src={midnightbloom} alt="Midnight Bloom" />
                         </div>
                         <div className='card-info'>
-                            <h3>Roxo Claro</h3>
+                            <h3>Midnight Bloom</h3>
                             <p className='preco'>R$ 209,90</p>
                             <button className='btn'>Comprar agora</button>
                         </div>
@@ -80,23 +95,11 @@ export default function Produtos() {
                     
                     <div className='card'>
                         <div className='card-image'>
-                            <img src={verdeAgua} alt="Verde Água" />
+                            <img src={lovespell} alt="Love Spell" />
                         </div>
                         <div className='card-info'>
-                            <h3>Verde Água</h3>
+                            <h3>Love Spell</h3>
                             <p className='preco'>R$ 199,90</p>
-                            <button className='btn'>Comprar agora</button>
-                        </div>
-                    </div>
-
-                    
-                    <div className='card'>
-                        <div className='card-image'>
-                            <img src={kitCom4} alt="Kit com 4" />
-                        </div>
-                        <div className='card-info'>
-                            <h3>Kit com 4</h3>
-                            <p className='preco'>R$ 499,90</p>
                             <button className='btn'>Comprar agora</button>
                         </div>
                     </div>

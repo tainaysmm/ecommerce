@@ -25,13 +25,13 @@
 .produtos_grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 15px;
     margin-top: 30px;
 }
 
 .card {
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 20px;
     overflow: hidden;
     background: #fff;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -43,12 +43,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
 }
 
 .card-image img{
     max-width: 100%;
     height: auto;
+    border-radius: 7px;
 }
 
 .card {
@@ -69,14 +70,10 @@
 }
 /* mudanças que eu fiz */
 .produtos img{
-    width: 100%;
+    width: 180%;
     max-width: 200px;
     height: auto;
     display: block;
     margin: 0 auto;
 }
-
-.produto button {
-    margin-top: 15px;
-} 
 
